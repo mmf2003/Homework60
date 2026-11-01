@@ -1,24 +1,16 @@
 {
-  "name": "homework60",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mmf2003/Homework60.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/mmf2003/Homework60/issues"
-  },
-  "homepage": "https://github.com/mmf2003/Homework60#readme",
-  "dependencies": {
-    "express": "^5.3.0"
-  }
+    "name": "homework60",
+    "version": "1.0.0",
+    "description": "Express.js MVC Server Homework",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js",
+        "test": "node --test test.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
 }
